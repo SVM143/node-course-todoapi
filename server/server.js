@@ -23,12 +23,5 @@ app.post('/todo',(req,res) =>{
 app.listen(3000,()=>{
   console.log('Started');
 });
-//  var othertodo = new todo({
-//    text:'Cook dinner'
-//  });
-//
-//  othertodo.save().then((doc)=>{
-//    console.log(JSON.stringify(doc,undefined,2));
-//  },(err)=>{
-//    console.log('unable to save');
-//  })
+
+module.exports={app};
